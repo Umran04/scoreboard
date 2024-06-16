@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3 class="teams">HOME</h3>
+        <h2 class="score" id="score-home">0</h2>
+        <div class="points-home">
+          <button id="home-one" onclick="addOneHome()">+1</button>
+          <button id="home-two" onclick="addTwoHome()">+2</button>
+          <button id="home-three" onclick="addThreeHome()">+3</button>
+        </div>
+      </div>
+      <div>
+        <h3 class="teams">AWAY</h3>
+        <h2 class="score" id="score-away">0</h2>
+        <div class="points-away">
+          <button id="away-one" onclick="addOneAway()">+1</button>
+          <button id="away-two" onclick="addTwoAway()">+2</button>
+          <button id="away-three" onclick="addThreeAway()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
